@@ -8,8 +8,8 @@ import { NativeBaseProvider, StatusBar } from "native-base";
 import React from "react";
 
 import { Loading } from "./src/conponents/Loading";
-import { SignIn } from "./src/screens/Signin";
 import { THEME } from "./src/styles/theme";
+import { SignIn } from "./src/screens/SignIn";
 
 export default function App() {
   const [fontsLoader] = useFonts({
